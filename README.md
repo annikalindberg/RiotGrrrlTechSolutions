@@ -34,3 +34,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## dependencies
+
+@sanity/client is the official client for fetching data from Sanity.
+styled-components allows you to write actual CSS code to style your components.
+@sanity/image-url is a utility for generating image URLs with Sanity.
+next-sanity provides utilities for integrating Sanity with Next.js.
