@@ -95,7 +95,7 @@ const MenuList = styled.div`
   }
 `;
 
-const Logo = styled.img`
+/* const Logo = styled.img`
   width: 50%; // Start with a relative width suitable for mobile
   max-width: 400px; // Example max-width for mobile
   height: auto; // Maintain aspect ratio
@@ -111,15 +111,15 @@ const Logo = styled.img`
     width: 100%; // Further adjusted for desktop screens
     max-width: 300px; // Example max-width for desktops
   }
-`;
+`; */
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
-  { text: "Posts", href: "/posts" },
-  {
+{ text: "Posts", href: "/posts/first-post"} ,
+/*   {
     text: "Services",
     href: "/services",
-/*     dropdown: [
+    dropdown: [
       {
         text: "Holistic Web Solutions",
         href: "/services/holisticWebSolutions",
@@ -129,9 +129,9 @@ const MENU_LIST = [
         href: "/services/web-accessibility-audits",
       },
       { text: "DEIB Labs", href: "/services/deib-labs" },
-    ], */
+    ],
   },
-  
+   */
   { text: "Contact", href: "/contact" },
 ];
 const Navbar = () => {
@@ -156,12 +156,13 @@ const Navbar = () => {
   return (
     <Header>
       <Nav>
-        <Link href={"/"}>
+ {/*        <Link href={"/"}>
           <Logo
-            src="/optimized-images-destination/GirlBoss-RoundLogo.svg"
+            src="../public/GirlBoss-RoundLogo.svg"
             alt="GirlBoss Tech Solutions Logo"
           />
-        </Link>
+        </Link> */}
+
         <MenuBar
           aria-label="Toggle menu"
           aria-expanded={navActive ? "true" : "false"}

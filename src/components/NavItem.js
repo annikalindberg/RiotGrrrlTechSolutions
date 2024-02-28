@@ -64,7 +64,10 @@ const DropdownToggle = styled.button`
 
 
 
-// Updated component structure
+//  NavItem component with dropdown support. It takes a text, href, and dropdown prop. If the dropdown prop is 
+// present, it will render a dropdown menu with the items provided in the dropdown prop. The dropdown items are 
+// rendered as links and are wrapped in a Link component to ensure proper navigation and accessibility.
+
 const NavItem = ({ text, href, dropdown }) => {
   return (
     <NavItemContainer>
